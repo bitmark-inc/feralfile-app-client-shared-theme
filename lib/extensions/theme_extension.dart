@@ -204,6 +204,19 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get atlasSpanishGreyBold16 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      fontFamily: AppTheme.atlasGrotesk,
+      fontSize: 16,
+      color: _isLightMode
+          ? AppColor.secondarySpanishGrey
+          : AppColor.secondarySpanishGrey,
+      fontWeight: FontWeight.w700,
+    );
+  }
+
   TextStyle get atlasWhiteItalic12 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
