@@ -169,6 +169,15 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get atlasWhite {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      fontFamily: AppTheme.atlasGrotesk,
+      color: _isLightMode ? AppColor.white : AppColor.white,
+    );
+  }
+
   TextStyle get atlasWhiteBold12 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
