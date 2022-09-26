@@ -591,7 +591,7 @@ extension TextThemeExtension on TextTheme {
           _isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
       fontSize: 14,
       fontWeight: FontWeight.w700,
-      fontFamily: AppTheme.iBMPlexMono,
+      fontFamily: AppTheme.atlasGrotesk,
     );
   }
 
