@@ -303,7 +303,7 @@ extension TextThemeExtension on TextTheme {
           _isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
       fontSize: 12,
       fontWeight: FontWeight.w700,
-      fontFamily: AppTheme.iBMPlexMono,
+      fontFamily: AppTheme.atlasGrotesk,
     );
   }
 
@@ -316,7 +316,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 12,
       fontWeight: FontWeight.w300,
       decoration: TextDecoration.underline,
-      fontFamily: AppTheme.iBMPlexMono,
+      fontFamily: AppTheme.atlasGrotesk,
     );
   }
 
@@ -604,7 +604,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 14,
       fontWeight: FontWeight.w300,
       decoration: TextDecoration.underline,
-      fontFamily: AppTheme.iBMPlexMono,
+      fontFamily: AppTheme.atlasGrotesk,
     );
   }
 
