@@ -20,7 +20,7 @@ extension TextThemeExtension on TextTheme {
       color: _isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 14,
       fontFamily: AppTheme.atlasGrotesk,
-      fontWeight: FontWeight.w400,
+      fontWeight: FontWeight.w500,
       shadows: [Shadow(color: Colors.black, offset: Offset(0, -1))],
       decoration: TextDecoration.underline,
       decorationStyle: TextDecorationStyle.solid,
