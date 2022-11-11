@@ -213,6 +213,19 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get atlasSpanishGreyBold36 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      fontFamily: AppTheme.atlasGrotesk,
+      fontSize: 36,
+      color: _isLightMode
+          ? AppColor.secondarySpanishGrey
+          : AppColor.secondarySpanishGrey,
+      fontWeight: FontWeight.w700,
+    );
+  }
+
   TextStyle get atlasSpanishGreyBold16 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
@@ -485,6 +498,28 @@ extension TextThemeExtension on TextTheme {
       fontSize: 16,
       color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontWeight: FontWeight.w300,
+    );
+  }
+
+  TextStyle get atlasWhiteMedium12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      fontFamily: AppTheme.atlasGrotesk,
+      fontSize: 12,
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontWeight: FontWeight.w500,
+    );
+  }
+
+  TextStyle get atlasBlackMedium12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      fontFamily: AppTheme.atlasGrotesk,
+      fontSize: 12,
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontWeight: FontWeight.w500,
     );
   }
 
