@@ -677,4 +677,136 @@ extension TextThemeExtension on TextTheme {
       fontFamily: AppTheme.iBMPlexMono,
     );
   }
+
+  TextStyle get ppMori700Black36 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 36,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400Black36 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 36,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400Black16 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400Black14 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori700Black16 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 16,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori600Black18 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 18,
+      fontWeight: FontWeight.w600,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400White12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400White14 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori700White24 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 24,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400Grey14 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.disabledColor : AppColor.disabledColor,
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400Grey12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.disabledColor : AppColor.disabledColor,
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
+  TextStyle get ppMori400Green12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
 }

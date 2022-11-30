@@ -12,4 +12,5 @@ class AppColor {
   static const chatDateDividerColor = Color.fromRGBO(194, 194, 194, 1);
   static const chatSecondaryColor = Color.fromRGBO(109, 107, 107, 1);
   static const chatPrimaryColor = Color.fromRGBO(237, 237, 237, 1);
+  static const auSuperTeal = Color.fromRGBO(0, 255, 163, 1);
 }

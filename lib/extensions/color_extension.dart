@@ -8,4 +8,10 @@ extension ColorExtension on ThemeData {
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
     return _isLightMode ? AppColor.disabledColor : AppColor.disabledColor;
   }
+
+  Color get auSuperTeal {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return _isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal;
+  }
 }
