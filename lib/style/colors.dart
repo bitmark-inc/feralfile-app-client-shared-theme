@@ -13,4 +13,6 @@ class AppColor {
   static const chatSecondaryColor = Color.fromRGBO(109, 107, 107, 1);
   static const chatPrimaryColor = Color.fromRGBO(237, 237, 237, 1);
   static const auSuperTeal = Color.fromRGBO(0, 255, 163, 1);
+  static const auLightGrey = Color.fromRGBO(227, 227, 227, 1);
+  static const auGrey = Color.fromRGBO(203, 203, 203, 1);
 }

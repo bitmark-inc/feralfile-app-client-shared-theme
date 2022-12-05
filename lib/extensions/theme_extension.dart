@@ -788,6 +788,17 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get ppMori700Grey24 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.auLightGrey : AppColor.auLightGrey,
+      fontSize: 24,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+    );
+  }
+
   TextStyle get ppMori400Grey14 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
