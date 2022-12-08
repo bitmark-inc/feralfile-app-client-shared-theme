@@ -686,6 +686,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 36,
       fontWeight: FontWeight.w700,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -697,6 +698,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 36,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -708,6 +710,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 16,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -719,6 +722,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 14,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -730,6 +734,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 12,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -741,6 +746,19 @@ extension TextThemeExtension on TextTheme {
       fontSize: 16,
       fontWeight: FontWeight.w700,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori700Black14 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 14,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -752,6 +770,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 18,
       fontWeight: FontWeight.w600,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -763,6 +782,43 @@ extension TextThemeExtension on TextTheme {
       fontSize: 12,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori400White16 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori700White12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 12,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori700White16 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 16,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -774,6 +830,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 14,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -785,6 +842,19 @@ extension TextThemeExtension on TextTheme {
       fontSize: 24,
       fontWeight: FontWeight.w700,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori700White18 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 18,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -796,6 +866,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 24,
       fontWeight: FontWeight.w700,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -807,6 +878,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 14,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -818,6 +890,7 @@ extension TextThemeExtension on TextTheme {
       fontSize: 12,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 
@@ -829,6 +902,19 @@ extension TextThemeExtension on TextTheme {
       fontSize: 12,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori400SupperTeal12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
     );
   }
 }
