@@ -774,6 +774,18 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get ppMori600Black12 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      fontSize: 12,
+      fontWeight: FontWeight.w600,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
   TextStyle get ppMori400White12 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
