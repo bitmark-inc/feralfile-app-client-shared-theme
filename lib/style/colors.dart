@@ -15,4 +15,5 @@ class AppColor {
   static const auSuperTeal = Color.fromRGBO(0, 255, 163, 1);
   static const auLightGrey = Color.fromRGBO(227, 227, 227, 1);
   static const auGrey = Color.fromRGBO(203, 203, 203, 1);
+  static const auGreyBackground = Color.fromRGBO(46, 46, 46, 1);
 }
