@@ -822,6 +822,18 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get ppMori700White14 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.white : AppColor.white,
+      fontSize: 14,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
   TextStyle get ppMori700White16 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
@@ -894,6 +906,18 @@ extension TextThemeExtension on TextTheme {
     );
   }
 
+  TextStyle get ppMori400Grey16 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.disabledColor : AppColor.disabledColor,
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
   TextStyle get ppMori400Grey12 {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
@@ -912,6 +936,18 @@ extension TextThemeExtension on TextTheme {
     return TextStyle(
       color: _isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
       fontSize: 12,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get ppMori400Green14 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
+      fontSize: 14,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.ppMori,
       height: 1.4,
