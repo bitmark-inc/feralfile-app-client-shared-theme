@@ -87,9 +87,9 @@ extension TextThemeExtension on TextTheme {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
     return TextStyle(
-      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      color: _isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
-      fontFamily: AppTheme.atlasGrotesk,
+      fontFamily: AppTheme.ppMori,
     );
   }
 
@@ -99,7 +99,7 @@ extension TextThemeExtension on TextTheme {
     return TextStyle(
       color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 14,
-      fontFamily: AppTheme.atlasGrotesk,
+      fontFamily: AppTheme.ppMori,
     );
   }
 
@@ -442,9 +442,9 @@ extension TextThemeExtension on TextTheme {
     final bool _isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
     return TextStyle(
-      color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
+      color: _isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
-      fontFamily: AppTheme.atlasGrotesk,
+      fontFamily: AppTheme.ppMori,
     );
   }
 
@@ -454,7 +454,7 @@ extension TextThemeExtension on TextTheme {
     return TextStyle(
       color: _isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 16,
-      fontFamily: AppTheme.atlasGrotesk,
+      fontFamily: AppTheme.ppMori,
     );
   }
 
