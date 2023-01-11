@@ -965,4 +965,16 @@ extension TextThemeExtension on TextTheme {
       height: 1.4,
     );
   }
+
+  TextStyle get ppMori700QuickSilver8 {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return TextStyle(
+      color: _isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
+      fontSize: 8,
+      fontWeight: FontWeight.w700,
+      fontFamily: AppTheme.ppMori,
+      height: 1.4,
+    );
+  }
 }
