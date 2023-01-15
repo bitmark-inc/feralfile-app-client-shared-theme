@@ -26,4 +26,10 @@ extension ColorExtension on ThemeData {
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
     return _isLightMode ? AppColor.auGreyBackground : AppColor.auGreyBackground;
   }
+
+  Color get auQuickSilver {
+    final bool _isLightMode =
+        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+    return _isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver;
+  }
 }
