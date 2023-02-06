@@ -4,32 +4,32 @@ import 'package:flutter/scheduler.dart';
 
 extension ColorExtension on ThemeData {
   Color get disableColor {
-    final bool _isLightMode =
+    final bool isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
-    return _isLightMode ? AppColor.disabledColor : AppColor.disabledColor;
+    return isLightMode ? AppColor.disabledColor : AppColor.disabledColor;
   }
 
   Color get auSuperTeal {
-    final bool _isLightMode =
+    final bool isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
-    return _isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal;
+    return isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal;
   }
 
   Color get auLightGrey {
-    final bool _isLightMode =
+    final bool isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
-    return _isLightMode ? AppColor.auLightGrey : AppColor.auLightGrey;
+    return isLightMode ? AppColor.auLightGrey : AppColor.auLightGrey;
   }
 
   Color get auGreyBackground {
-    final bool _isLightMode =
+    final bool isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
-    return _isLightMode ? AppColor.auGreyBackground : AppColor.auGreyBackground;
+    return isLightMode ? AppColor.auGreyBackground : AppColor.auGreyBackground;
   }
 
   Color get auQuickSilver {
-    final bool _isLightMode =
+    final bool isLightMode =
         SchedulerBinding.instance.window.platformBrightness == Brightness.light;
-    return _isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver;
+    return isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver;
   }
 }

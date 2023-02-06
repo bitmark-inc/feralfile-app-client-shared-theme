@@ -15,10 +15,9 @@ class AppTheme {
 
   static ThemeData lightTheme() {
     return ThemeData(
-      backgroundColor: AppColor.white,
       primaryColor: AppColor.primaryBlack,
       scaffoldBackgroundColor: AppColor.white,
-      colorScheme: ColorScheme(
+      colorScheme: const ColorScheme(
         primary: AppColor.primaryBlack,
         onPrimary: AppColor.primaryBlack,
         secondary: AppColor.white,
@@ -31,133 +30,132 @@ class AppTheme {
         surface: AppColor.secondaryDimGrey,
         onSurface: AppColor.secondaryDimGrey,
       ),
-      errorColor: Colors.red,
       primaryIconTheme:
           const IconThemeData(color: AppColor.primaryBlack, size: 24),
-      textTheme: TextTheme(
-        headline1: TextStyle(
+      textTheme: const TextTheme(
+        displayLarge: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 36,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline2: TextStyle(
+        displayMedium: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 24,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline3: TextStyle(
+        displaySmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 22,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 16,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline5: TextStyle(
+        headlineSmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 12,
           fontFamily: atlasGrotesk,
         ),
-        button: TextStyle(
+        labelLarge: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 14,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        caption: TextStyle(
+        bodySmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 16,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        bodyText1: TextStyle(
+        bodyLarge: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 16,
           fontFamily: atlasGrotesk,
           fontWeight: FontWeight.w300,
         ),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: AppColor.secondaryDimGrey,
           fontSize: 16,
           fontFamily: iBMPlexMono,
         ),
-        subtitle1: TextStyle(
+        titleMedium: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 16,
           fontFamily: iBMPlexMono,
         ),
-        subtitle2: TextStyle(
+        titleSmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 12,
           fontWeight: FontWeight.w300,
           fontFamily: iBMPlexMono,
         ),
       ),
-      primaryTextTheme: TextTheme(
-        headline1: TextStyle(
+      primaryTextTheme: const TextTheme(
+        displayLarge: TextStyle(
           color: AppColor.white,
           fontSize: 36,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline2: TextStyle(
+        displayMedium: TextStyle(
           color: AppColor.white,
           fontSize: 24,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline3: TextStyle(
+        displaySmall: TextStyle(
           color: AppColor.white,
           fontSize: 22,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
           color: AppColor.white,
           fontSize: 16,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline5: TextStyle(
+        headlineSmall: TextStyle(
           color: AppColor.white,
           fontSize: 12,
           fontFamily: atlasGrotesk,
         ),
-        button: TextStyle(
+        labelLarge: TextStyle(
           color: AppColor.white,
           fontSize: 14,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        caption: TextStyle(
+        bodySmall: TextStyle(
           color: AppColor.white,
           fontSize: 16,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        bodyText1: TextStyle(
+        bodyLarge: TextStyle(
           color: AppColor.white,
           fontSize: 16,
           fontFamily: atlasGrotesk,
           fontWeight: FontWeight.w300,
         ),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: AppColor.white,
           fontSize: 16,
           fontFamily: iBMPlexMono,
         ),
-        subtitle1: TextStyle(
+        titleMedium: TextStyle(
           color: AppColor.white,
           fontSize: 16,
           fontFamily: iBMPlexMono,
         ),
-        subtitle2: TextStyle(
+        titleSmall: TextStyle(
           color: AppColor.white,
           fontSize: 12,
           fontWeight: FontWeight.w300,
@@ -169,10 +167,9 @@ class AppTheme {
 
   static ThemeData tabletLightTheme() {
     return ThemeData(
-      backgroundColor: AppColor.white,
       primaryColor: AppColor.primaryBlack,
       scaffoldBackgroundColor: AppColor.white,
-      colorScheme: ColorScheme(
+      colorScheme: const ColorScheme(
         primary: AppColor.primaryBlack,
         onPrimary: AppColor.primaryBlack,
         secondary: AppColor.white,
@@ -185,133 +182,132 @@ class AppTheme {
         surface: AppColor.secondaryDimGrey,
         onSurface: AppColor.secondaryDimGrey,
       ),
-      errorColor: Colors.red,
       primaryIconTheme:
           const IconThemeData(color: AppColor.primaryBlack, size: 24),
-      textTheme: TextTheme(
-        headline1: TextStyle(
+      textTheme: const TextTheme(
+        displayLarge: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 36,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline2: TextStyle(
+        displayMedium: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 24,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline3: TextStyle(
+        displaySmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 22,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 20,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline5: TextStyle(
+        headlineSmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 14,
           fontFamily: atlasGrotesk,
         ),
-        button: TextStyle(
+        labelLarge: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 16,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        caption: TextStyle(
+        bodySmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 20,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        bodyText1: TextStyle(
+        bodyLarge: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 20,
           fontFamily: atlasGrotesk,
           fontWeight: FontWeight.w300,
         ),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: AppColor.secondaryDimGrey,
           fontSize: 20,
           fontFamily: iBMPlexMono,
         ),
-        subtitle1: TextStyle(
+        titleMedium: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 20,
           fontFamily: iBMPlexMono,
         ),
-        subtitle2: TextStyle(
+        titleSmall: TextStyle(
           color: AppColor.primaryBlack,
           fontSize: 14,
           fontWeight: FontWeight.w300,
           fontFamily: iBMPlexMono,
         ),
       ),
-      primaryTextTheme: TextTheme(
-        headline1: TextStyle(
+      primaryTextTheme: const TextTheme(
+        displayLarge: TextStyle(
           color: AppColor.white,
           fontSize: 36,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline2: TextStyle(
+        displayMedium: TextStyle(
           color: AppColor.white,
           fontSize: 24,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline3: TextStyle(
+        displaySmall: TextStyle(
           color: AppColor.white,
           fontSize: 22,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
           color: AppColor.white,
           fontSize: 20,
           fontWeight: FontWeight.w700,
           fontFamily: atlasGrotesk,
         ),
-        headline5: TextStyle(
+        headlineSmall: TextStyle(
           color: AppColor.white,
           fontSize: 14,
           fontFamily: atlasGrotesk,
         ),
-        button: TextStyle(
+        labelLarge: TextStyle(
           color: AppColor.white,
           fontSize: 16,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        caption: TextStyle(
+        bodySmall: TextStyle(
           color: AppColor.white,
           fontSize: 20,
           fontWeight: FontWeight.w700,
           fontFamily: iBMPlexMono,
         ),
-        bodyText1: TextStyle(
+        bodyLarge: TextStyle(
           color: AppColor.white,
           fontSize: 20,
           fontFamily: atlasGrotesk,
           fontWeight: FontWeight.w300,
         ),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: AppColor.white,
           fontSize: 20,
           fontFamily: iBMPlexMono,
         ),
-        subtitle1: TextStyle(
+        titleMedium: TextStyle(
           color: AppColor.white,
           fontSize: 20,
           fontFamily: iBMPlexMono,
         ),
-        subtitle2: TextStyle(
+        titleSmall: TextStyle(
           color: AppColor.white,
           fontSize: 14,
           fontWeight: FontWeight.w300,
