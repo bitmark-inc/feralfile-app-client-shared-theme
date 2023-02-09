@@ -15,6 +15,11 @@ class AppTheme {
 
   static ThemeData lightTheme() {
     return ThemeData(
+      textSelectionTheme: const TextSelectionThemeData(
+        cursorColor: AppColor.auQuickSilver,
+        selectionHandleColor: AppColor.auQuickSilver,
+        selectionColor: AppColor.auQuickSilver,
+      ),
       primaryColor: AppColor.primaryBlack,
       scaffoldBackgroundColor: AppColor.white,
       colorScheme: const ColorScheme(
@@ -167,6 +172,11 @@ class AppTheme {
 
   static ThemeData tabletLightTheme() {
     return ThemeData(
+      textSelectionTheme: const TextSelectionThemeData(
+        cursorColor: AppColor.auQuickSilver,
+        selectionHandleColor: AppColor.auQuickSilver,
+        selectionColor: AppColor.auQuickSilver,
+      ),
       primaryColor: AppColor.primaryBlack,
       scaffoldBackgroundColor: AppColor.white,
       colorScheme: const ColorScheme(
