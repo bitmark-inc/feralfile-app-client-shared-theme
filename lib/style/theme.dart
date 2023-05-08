@@ -7,6 +7,7 @@ class AppTheme {
   static const String domaineSansText = 'DomaineSansText';
   static const String iBMPlexMono = 'IBMPlexMono';
   static const String ppMori = 'PPMori';
+  static const moMASans = "MoMASans";
 
   final bool _isLightMode =
       SchedulerBinding.instance.window.platformBrightness == Brightness.light;
