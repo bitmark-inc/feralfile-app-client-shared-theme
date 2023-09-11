@@ -5,7 +5,8 @@ import 'package:flutter/scheduler.dart';
 extension TextThemeExtension on TextTheme {
   TextStyle get largeTitle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.domaineSansText,
       fontSize: 48,
@@ -15,7 +16,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get linkStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 14,
@@ -31,7 +33,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get linkStyle2 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 12,
@@ -47,7 +50,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get whitelinkStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 14,
@@ -63,7 +67,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get dateDividerTextStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
       fontSize: 12,
@@ -73,7 +78,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get sentMessageBodyTextStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
@@ -83,7 +89,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get sentMessageCaptionTextStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
@@ -93,7 +100,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get receivedMessageCaptionTextStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 14,
@@ -103,7 +111,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get receivedMessageBodyTextStyle {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 14,
@@ -113,7 +122,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmBlackBold24 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.iBMPlexMono,
       fontSize: 24,
@@ -124,7 +134,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyMediumNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.iBMPlexMono,
       fontSize: 16,
@@ -135,7 +146,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasBlackBold12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 12,
@@ -146,7 +158,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasBlackNormal14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 14,
@@ -157,7 +170,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyNormal14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 14,
@@ -169,7 +183,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhite {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       color: isLightMode ? AppColor.white : AppColor.white,
@@ -178,7 +193,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhiteBold12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 12,
@@ -189,7 +205,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasBlackNormal12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 12,
@@ -200,7 +217,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasSpanishGreyNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 16,
@@ -213,7 +231,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasSpanishGreyBold36 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 36,
@@ -226,7 +245,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasSpanishGreyBold16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 16,
@@ -239,7 +259,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhiteItalic12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 12,
@@ -250,7 +271,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyNormal12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -262,7 +284,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasDimgreyBold14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -274,7 +297,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhiteBold14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
@@ -285,7 +309,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyBold14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -297,7 +322,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmBlackNormal14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 14,
@@ -308,7 +334,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyBold12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -320,7 +347,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyUnderline12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -333,7 +361,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmWhiteNormal14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
@@ -344,7 +373,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyNormal12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -356,7 +386,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -368,7 +399,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get linkStyle16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 16,
@@ -384,7 +416,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get linkStyle14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 14,
@@ -400,7 +433,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get whitelinkStyle16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? Colors.transparent : Colors.transparent,
       fontSize: 16,
@@ -416,7 +450,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get dateDividerTextStyle14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
       fontSize: 14,
@@ -426,7 +461,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get sentMessageBodyTextStyle16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
@@ -436,7 +472,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get sentMessageCaptionTextStyle16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
@@ -446,7 +483,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get receivedMessageCaptionTextStyle16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 16,
@@ -456,7 +494,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get receivedMessageBodyTextStyle16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 16,
@@ -466,7 +505,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyMediumNormal20 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.iBMPlexMono,
       fontSize: 20,
@@ -477,7 +517,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasBlackBold14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 14,
@@ -488,7 +529,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasBlackNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 16,
@@ -499,7 +541,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhiteMedium12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 12,
@@ -510,7 +553,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasBlackMedium12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 12,
@@ -521,7 +565,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 16,
@@ -533,7 +578,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasSpanishGreyNormal20 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 20,
@@ -546,7 +592,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasSpanishGreyBold20 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 20,
@@ -559,7 +606,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhiteItalic14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       fontFamily: AppTheme.atlasGrotesk,
       fontSize: 14,
@@ -570,7 +618,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasDimgreyBold16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -582,7 +631,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasWhiteBold16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
@@ -593,7 +643,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyBold16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -605,7 +656,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmBlackNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 16,
@@ -616,7 +668,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyBold14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -628,7 +681,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get atlasGreyUnderline14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -641,7 +695,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmWhiteNormal16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
@@ -652,7 +707,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyNormal14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -664,7 +720,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ibmGreyNormal20 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color:
           isLightMode ? AppColor.secondaryDimGrey : AppColor.secondaryDimGrey,
@@ -676,7 +733,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700Black36 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 36,
@@ -688,7 +746,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Black36 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 36,
@@ -700,7 +759,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Black16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 16,
@@ -712,7 +772,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Black14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 14,
@@ -724,7 +785,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Black12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 12,
@@ -736,7 +798,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700Black16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 16,
@@ -748,7 +811,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700Black14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 14,
@@ -760,7 +824,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori600Black18 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 18,
@@ -772,7 +837,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori600Black12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 12,
@@ -784,7 +850,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400White12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 12,
@@ -796,7 +863,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400White16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
@@ -808,7 +876,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700White12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 12,
@@ -820,7 +889,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700White14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
@@ -832,7 +902,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700White16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 16,
@@ -844,7 +915,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400White14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 14,
@@ -856,7 +928,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700White24 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 24,
@@ -868,7 +941,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700White18 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.white : AppColor.white,
       fontSize: 18,
@@ -880,7 +954,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700Grey24 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auLightGrey : AppColor.auLightGrey,
       fontSize: 24,
@@ -892,7 +967,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700Black24 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 24,
@@ -904,7 +980,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Grey14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.disabledColor : AppColor.disabledColor,
       fontSize: 14,
@@ -916,7 +993,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Grey16 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.disabledColor : AppColor.disabledColor,
       fontSize: 16,
@@ -928,7 +1006,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Grey12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.disabledColor : AppColor.disabledColor,
       fontSize: 12,
@@ -940,7 +1019,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Green12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
       fontSize: 12,
@@ -952,7 +1032,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400Green14 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
       fontSize: 14,
@@ -964,7 +1045,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori400SupperTeal12 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auSuperTeal : AppColor.auSuperTeal,
       fontSize: 12,
@@ -976,7 +1058,8 @@ extension TextThemeExtension on TextTheme {
 
   TextStyle get ppMori700QuickSilver8 {
     final bool isLightMode =
-        SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+        SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light;
     return TextStyle(
       color: isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
       fontSize: 8,

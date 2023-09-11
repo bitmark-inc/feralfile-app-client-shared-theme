@@ -10,7 +10,8 @@ class AppTheme {
   static const moMASans = "MoMASans";
 
   final bool _isLightMode =
-      SchedulerBinding.instance.window.platformBrightness == Brightness.light;
+      SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+          Brightness.light;
 
   bool get isLightMode => _isLightMode;
 
