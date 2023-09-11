@@ -22,7 +22,7 @@ extension MoMASansTextThemExtension on TextTheme {
             Brightness.light;
     return TextStyle(
       color:
-          isLightMode ? AppColor.auGreyBackground : AppColor.auGreyBackground,
+          isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
       fontSize: 18,
       fontWeight: FontWeight.w700,
       fontFamily: AppTheme.moMASans,
