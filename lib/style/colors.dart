@@ -17,4 +17,5 @@ class AppColor {
   static const auGrey = Color.fromRGBO(203, 203, 203, 1);
   static const auGreyBackground = Color.fromRGBO(46, 46, 46, 1);
   static const auQuickSilver = Color.fromRGBO(160, 160, 160, 1);
+  static const momaGreen = Color.fromRGBO(79, 174, 79, 1);
 }
