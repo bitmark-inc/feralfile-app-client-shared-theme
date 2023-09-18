@@ -21,8 +21,7 @@ extension MoMASansTextThemExtension on TextTheme {
         SchedulerBinding.instance.platformDispatcher.platformBrightness ==
             Brightness.light;
     return TextStyle(
-      color:
-          isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
+      color: isLightMode ? AppColor.auQuickSilver : AppColor.auQuickSilver,
       fontSize: 18,
       fontWeight: FontWeight.w700,
       fontFamily: AppTheme.moMASans,
@@ -76,6 +75,16 @@ extension MoMASansTextThemExtension on TextTheme {
     return TextStyle(
       color: isLightMode ? AppColor.primaryBlack : AppColor.primaryBlack,
       fontSize: 24,
+      fontWeight: FontWeight.w400,
+      fontFamily: AppTheme.moMASans,
+      height: 1.4,
+    );
+  }
+
+  TextStyle get moMASans400Black18 {
+    return const TextStyle(
+      color: AppColor.primaryBlack,
+      fontSize: 18,
       fontWeight: FontWeight.w400,
       fontFamily: AppTheme.moMASans,
       height: 1.4,
