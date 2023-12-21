@@ -18,4 +18,6 @@ class AppColor {
   static const auGreyBackground = Color.fromRGBO(46, 46, 46, 1);
   static const auQuickSilver = Color.fromRGBO(160, 160, 160, 1);
   static const momaGreen = Color.fromRGBO(79, 174, 79, 1);
+  static const feralFileHighlight = Color.fromRGBO(236, 255, 12, 1);
+  static const feralFileLightBlue = Color.fromRGBO(185, 229, 255, 1);
 }
