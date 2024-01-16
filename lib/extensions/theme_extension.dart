@@ -1038,7 +1038,7 @@ extension TextThemeExtension on TextTheme {
             Brightness.light;
     return TextStyle(
       color: isLightMode
-          ? AppColor.feralFileLightBlue
+          ? AppColor.feralFileHighlight
           : AppColor.feralFileHighlight,
       fontSize: 14,
       fontWeight: FontWeight.w400,
