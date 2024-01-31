@@ -1,4 +1,4 @@
-import 'package:autonomy_theme/style/colors.dart';
+import 'package:feralfile_app_theme/autonomy_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
