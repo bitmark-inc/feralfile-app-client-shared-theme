@@ -34,8 +34,8 @@ class AppTheme {
         brightness: Brightness.light,
         error: AppColor.red,
         onError: AppColor.red,
-        surface: AppColor.secondaryDimGrey,
-        onSurface: AppColor.feralFileLightBlue,
+        surface: AppColor.feralFileLightBlue,
+        onSurface: AppColor.secondaryDimGrey,
       ),
       primaryIconTheme:
           const IconThemeData(color: AppColor.primaryBlack, size: 24),
