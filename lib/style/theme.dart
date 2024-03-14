@@ -18,9 +18,9 @@ class AppTheme {
   static ThemeData lightTheme() {
     return ThemeData(
       textSelectionTheme: const TextSelectionThemeData(
-        cursorColor: AppColor.red,
-        selectionHandleColor: AppColor.feralFileHighlight,
-        selectionColor: AppColor.feralFileLightBlue,
+        cursorColor: AppColor.auQuickSilver,
+        selectionHandleColor: AppColor.auQuickSilver,
+        selectionColor: AppColor.auQuickSilver,
       ),
       primaryColor: AppColor.primaryBlack,
       scaffoldBackgroundColor: AppColor.white,
@@ -35,7 +35,7 @@ class AppTheme {
         error: AppColor.red,
         onError: AppColor.red,
         surface: AppColor.secondaryDimGrey,
-        onSurface: AppColor.secondaryDimGrey,
+        onSurface: AppColor.feralFileLightBlue,
       ),
       primaryIconTheme:
           const IconThemeData(color: AppColor.primaryBlack, size: 24),
