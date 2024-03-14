@@ -18,9 +18,9 @@ class AppTheme {
   static ThemeData lightTheme() {
     return ThemeData(
       textSelectionTheme: const TextSelectionThemeData(
-        cursorColor: AppColor.auQuickSilver,
-        selectionHandleColor: AppColor.auQuickSilver,
-        selectionColor: AppColor.auQuickSilver,
+        cursorColor: AppColor.red,
+        selectionHandleColor: AppColor.feralFileHighlight,
+        selectionColor: AppColor.feralFileLightBlue,
       ),
       primaryColor: AppColor.primaryBlack,
       scaffoldBackgroundColor: AppColor.white,
