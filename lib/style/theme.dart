@@ -35,7 +35,7 @@ class AppTheme {
         error: AppColor.red,
         onError: AppColor.red,
         surface: AppColor.secondaryDimGrey,
-        onSurface: AppColor.secondaryDimGrey,
+        onSurface: AppColor.auLightGrey,
       ),
       primaryIconTheme:
           const IconThemeData(color: AppColor.primaryBlack, size: 24),
