@@ -34,7 +34,7 @@ class AppTheme {
         brightness: Brightness.light,
         error: AppColor.red,
         onError: AppColor.red,
-        surface: AppColor.feralFileLightBlue,
+        surface: AppColor.auLightGrey,
         onSurface: AppColor.secondaryDimGrey,
       ),
       primaryIconTheme:
